@@ -4,10 +4,10 @@
 * Code:
 ```c
 for(int i = 2; i <= len; i++){
-        if(primeCheck[i]){
-            for(int j = 2 * i; j <= len; j += i){
-                primeCheck[j] = false;
-            }
-        }
+   if(primeCheck[i]){
+      for(int j = 2 * i; j <= len; j += i){
+          primeCheck[j] = false;
+      }
+   }
 }
 ```
